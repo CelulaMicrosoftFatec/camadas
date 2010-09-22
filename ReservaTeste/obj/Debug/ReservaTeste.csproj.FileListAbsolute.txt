@@ -1,0 +1,7 @@
+C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\ReservaTeste\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\ReservaTeste\bin\Debug\ReservaTeste.dll
+C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\ReservaTeste\bin\Debug\ReservaTeste.pdb
+C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\ReservaTeste\bin\Debug\Banco.dll
+C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\ReservaTeste\bin\Debug\Banco.pdb
+C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\ReservaTeste\obj\Debug\ReservaTeste.dll
+C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\ReservaTeste\obj\Debug\ReservaTeste.pdb

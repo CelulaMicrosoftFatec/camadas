@@ -1,0 +1,9 @@
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\bin\Debug\BancoTest.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\bin\Debug\BancoTest.pdb
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\bin\Debug\Banco.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\bin\Debug\Banco.pdb
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\bin\Debug\Banco_Accessor.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\bin\Debug\Banco_Accessor.pdb
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\obj\Debug\BancoTest.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\BancoTest\obj\Debug\BancoTest.pdb

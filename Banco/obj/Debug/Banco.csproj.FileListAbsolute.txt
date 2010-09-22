@@ -1,0 +1,6 @@
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\Banco\bin\Debug\Banco.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\Banco\bin\Debug\Banco.pdb
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\Banco\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\Banco\obj\Debug\Banco.dll
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\Banco\obj\Debug\Banco.pdb
+c:\users\tordek\documents\visual studio 2010\Projects\Banco\Banco\bin\Debug\Banco.dll.config
