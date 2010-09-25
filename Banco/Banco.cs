@@ -5,44 +5,52 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace Reserva.Banco
+namespace Banco
 {
     public static class BD
     {
         public static string CONNECTION_STRING = "Data Source=.;Initial Catalog=db_reserva;Persist Security Info=True;User ID=sa; Password=sadministrador";
-        private static SqlConnection conn = new SqlConnection(CONNECTION_STRING);
-        private static SqlCommand cmd = Connection.CreateCommand();
 
-        public static SqlCommand Command
+        public static Connection Conexao
         {
-            get { return BD.cmd; }
-            set { BD.cmd = value; }
-        }
-
-        public static SqlConnection Connection
-        {
-            get { return BD.conn; }
-            set { BD.conn = value; }
+            get { return Connection.GetInstance(); }
         }
 
         public static SqlDataReader Reader(string query)
         {
-            if (Connection.State.Equals(ConnectionState.Open)) Connection.Close();
-            Connection.Open();
+            SqlDataReader reader = null;
+            Conexao.Execute(delegate(SqlCommand cmd) {
+                cmd.CommandText = query;
+                reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+            });
 
-            Command.CommandText = query;
-
-            return Command.ExecuteReader(CommandBehavior.CloseConnection);
+            return reader;
         }
 
         public static DataTable DataTable(string query)
         {
-           SqlDataAdapter adapter = new SqlDataAdapter(Connection.CreateCommand());
-           adapter.SelectCommand.CommandText = query;
+            DataTable dt = new DataTable();
 
-           var dt = new DataTable();
-           adapter.Fill(dt);
+            Conexao.Execute(delegate(SqlDataAdapter adpter) {
+                adpter.SelectCommand.CommandText = query;
+                adpter.Fill(dt);
+            });
+            
            return dt;
         }
+
+        public static Int32 ExecuteNonQuery(string query)
+        {
+            Int32 result = 0;
+            Conexao.Execute(delegate(SqlCommand cmd)
+            {
+                cmd.CommandText = query;
+                result = cmd.ExecuteNonQuery();
+                cmd.Transaction.Commit();
+            });
+
+            return result;
+        }
+
     }
 }

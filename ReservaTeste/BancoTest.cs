@@ -1,4 +1,4 @@
-﻿using Reserva.Banco;
+﻿using Banco;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Data.SqlClient;
@@ -66,36 +66,11 @@ namespace BancoTest
         #endregion
 
         [TestMethod]
-        public void deveria_trazer_uma_string_de_conexao_valida()
-        {
-            String string_conexao = "Data Source=.;Initial Catalog=db_reserva;Persist Security Info=True;User ID=sa; Password=sadministrador";
-            Assert.AreEqual(string_conexao, BD.CONNECTION_STRING);
-        }
-
-        [TestMethod]
-        public void deveria_retornar_um_objeto_SqlConnection()
-        {
-            Assert.IsNotNull(BD.Connection);
-        }
-
-        [TestMethod]
-        public void deveria_trazer_um_elemento_SqlCommand()
-        {
-            Assert.IsNotNull(BD.Command);
-        }
-
-        [TestMethod]
-        public void deveria_trazer_um_objeto_SqlDataReader()
-        {
-            Assert.IsInstanceOfType(BD.Reader("select * from usuario"), typeof(SqlDataReader));
-        }
-
-        [TestMethod]
         public void deveria_ler_um_objeto_sqldatareade()
         {
             SqlDataReader dr = BD.Reader("select * from usuario");
             String nome = String.Empty;
-            while (dr.Read())
+            if (dr.Read())
             {
                 nome = dr["nm_nome"].ToString();
             }
@@ -108,7 +83,7 @@ namespace BancoTest
         {
             SqlDataReader dr = BD.Reader("select * from usuario");
             String nome = String.Empty;
-            while (dr.Read())
+            if (dr.Read())
             {
                 nome = dr["nm_nome"].ToString();
             }
@@ -117,7 +92,7 @@ namespace BancoTest
 
             SqlDataReader dr2 = BD.Reader("select * from usuario");
             String nome2 = String.Empty;
-            while (dr2.Read())
+            if (dr2.Read())
             {
                 nome2 = dr2["nm_nome"].ToString();
             }
@@ -137,9 +112,14 @@ namespace BancoTest
             DataTable dt = BD.DataTable("select * from usuario");
 
             Assert.IsNotNull(dt);
-            Assert.AreEqual(1, dt.Rows.Count);
+            Assert.AreEqual(4, dt.Rows.Count);
         }
 
-
+        [TestMethod]
+        public void deveria_inserir_usuario()
+        {
+            Int32 result = BD.ExecuteNonQuery("insert into usuario(nm_nome, nm_login, nm_senha, id_tp_usuario) values ('Rosa', 'Rosa', '123', 1)");
+            Assert.AreNotEqual(0, result);
+        }
     }
 }

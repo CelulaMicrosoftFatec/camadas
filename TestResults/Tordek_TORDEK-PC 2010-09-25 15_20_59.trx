@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b66bc2fa-1872-46f3-8c0f-14b6c8e38dd4" name="Tordek@TORDEK-PC 2010-09-25 15:20:59" runUser="Tordek-PC\Tordek" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c7b5a916-ae87-4048-b6db-272523a01ffc">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tordek_TORDEK-PC 2010-09-25 15_20_59">
+      <DeploymentItem filename="C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\Banco\bin\Debug\Banco.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-25T15:20:59.6397688-03:00" queuing="2010-09-25T15:21:00.5602050-03:00" start="2010-09-25T15:21:00.7052133-03:00" finish="2010-09-25T15:21:05.4186250-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="deveria_trazer_conexao" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="d8d3a8ab-205a-77b5-e05f-6f84170efb50">
+      <Execution id="ef0fec0a-d5df-4c12-ab5f-549a2fa03f57" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReservaTeste.ConnectionTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_trazer_conexao" />
+    </UnitTest>
+    <UnitTest name="deveria_buscar_usuario_pelo_Command_denovo" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="b019bf55-10f0-69c2-90ef-961bd4361fe3">
+      <Execution id="7d1f7eb3-bc2c-45e4-89de-080d8787211e" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReservaTeste.ConnectionTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_buscar_usuario_pelo_Command_denovo" />
+    </UnitTest>
+    <UnitTest name="deveria_trazer_um_DataTable_com_contedo" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="4101630f-354f-73bc-96fc-c0c91d3301a3">
+      <Execution id="dbef8d88-6cba-4e69-b2a5-db567ee730d6" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BancoTest.BancoTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_trazer_um_DataTable_com_contedo" />
+    </UnitTest>
+    <UnitTest name="deveria_ter_o_mesmo_hash" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="9942daa5-a064-c005-2ef9-636721b2e10a">
+      <Execution id="97a459d8-3cd9-49a1-987e-e9463fdfcd86" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReservaTeste.ConnectionTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_ter_o_mesmo_hash" />
+    </UnitTest>
+    <UnitTest name="deveria_trazer_um_DataTable" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="bd4154a3-bb77-e24c-6eb0-af1c9ba69852">
+      <Execution id="0f2738b2-4ad9-4998-94d3-b8fb0e769f9e" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BancoTest.BancoTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_trazer_um_DataTable" />
+    </UnitTest>
+    <UnitTest name="deveria_buscar_usuario_pelo_Command" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="69856786-12ed-7c5e-530e-466e9cf89972">
+      <Execution id="1fa5545c-be2d-44c2-87b0-adaff0af4831" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReservaTeste.ConnectionTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_buscar_usuario_pelo_Command" />
+    </UnitTest>
+    <UnitTest name="deveria_ler_um_objeto_sqldatareade" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="28a00470-f93f-a7e1-ba72-23860b4b3d55">
+      <Execution id="d31d560e-6b4c-4211-9894-f67af58c369a" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BancoTest.BancoTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_ler_um_objeto_sqldatareade" />
+    </UnitTest>
+    <UnitTest name="deveria_instanciar_uma_conexao_com_o_banco" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="76cb79dd-aea1-a129-200c-53fbfca57274">
+      <Execution id="0a563bf4-c084-4c16-a1a7-234fa2d47c76" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReservaTeste.ConnectionTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_instanciar_uma_conexao_com_o_banco" />
+    </UnitTest>
+    <UnitTest name="deveria_ler_um_objeto_sqldatareader_duas_vezes" storage="c:\users\tordek\documents\visual studio 2010\projects\banco\reservateste\bin\debug\reservateste.dll" id="65af4af8-fa85-8246-83fb-d31c4b799c87">
+      <Execution id="637603af-ffec-4a1c-8e1c-80923b4e3612" />
+      <TestMethod codeBase="C:/Users/Tordek/Documents/Visual Studio 2010/Projects/Banco/ReservaTeste/bin/Debug/ReservaTeste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BancoTest.BancoTest, ReservaTeste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deveria_ler_um_objeto_sqldatareader_duas_vezes" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="28a00470-f93f-a7e1-ba72-23860b4b3d55" executionId="d31d560e-6b4c-4211-9894-f67af58c369a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4101630f-354f-73bc-96fc-c0c91d3301a3" executionId="dbef8d88-6cba-4e69-b2a5-db567ee730d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65af4af8-fa85-8246-83fb-d31c4b799c87" executionId="637603af-ffec-4a1c-8e1c-80923b4e3612" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69856786-12ed-7c5e-530e-466e9cf89972" executionId="1fa5545c-be2d-44c2-87b0-adaff0af4831" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76cb79dd-aea1-a129-200c-53fbfca57274" executionId="0a563bf4-c084-4c16-a1a7-234fa2d47c76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9942daa5-a064-c005-2ef9-636721b2e10a" executionId="97a459d8-3cd9-49a1-987e-e9463fdfcd86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b019bf55-10f0-69c2-90ef-961bd4361fe3" executionId="7d1f7eb3-bc2c-45e4-89de-080d8787211e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd4154a3-bb77-e24c-6eb0-af1c9ba69852" executionId="0f2738b2-4ad9-4998-94d3-b8fb0e769f9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8d3a8ab-205a-77b5-e05f-6f84170efb50" executionId="ef0fec0a-d5df-4c12-ab5f-549a2fa03f57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d31d560e-6b4c-4211-9894-f67af58c369a" testId="28a00470-f93f-a7e1-ba72-23860b4b3d55" testName="deveria_ler_um_objeto_sqldatareade" computerName="TORDEK-PC" duration="00:00:00.0794352" startTime="2010-09-25T15:21:00.8412211-03:00" endTime="2010-09-25T15:21:01.8942813-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d31d560e-6b4c-4211-9894-f67af58c369a">
+    </UnitTestResult>
+    <UnitTestResult executionId="dbef8d88-6cba-4e69-b2a5-db567ee730d6" testId="4101630f-354f-73bc-96fc-c0c91d3301a3" testName="deveria_trazer_um_DataTable_com_contedo" computerName="TORDEK-PC" duration="00:00:00.5565485" startTime="2010-09-25T15:21:01.9082821-03:00" endTime="2010-09-25T15:21:02.4803149-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbef8d88-6cba-4e69-b2a5-db567ee730d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="637603af-ffec-4a1c-8e1c-80923b4e3612" testId="65af4af8-fa85-8246-83fb-d31c4b799c87" testName="deveria_ler_um_objeto_sqldatareader_duas_vezes" computerName="TORDEK-PC" duration="00:00:01.1817574" startTime="2010-09-25T15:21:02.4893154-03:00" endTime="2010-09-25T15:21:03.6765556-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="637603af-ffec-4a1c-8e1c-80923b4e3612">
+    </UnitTestResult>
+    <UnitTestResult executionId="1fa5545c-be2d-44c2-87b0-adaff0af4831" testId="69856786-12ed-7c5e-530e-466e9cf89972" testName="deveria_buscar_usuario_pelo_Command" computerName="TORDEK-PC" duration="00:00:00.0016681" startTime="2010-09-25T15:21:03.6921556-03:00" endTime="2010-09-25T15:21:03.7077557-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fa5545c-be2d-44c2-87b0-adaff0af4831">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a563bf4-c084-4c16-a1a7-234fa2d47c76" testId="76cb79dd-aea1-a129-200c-53fbfca57274" testName="deveria_instanciar_uma_conexao_com_o_banco" computerName="TORDEK-PC" duration="00:00:00.0003096" startTime="2010-09-25T15:21:03.7233557-03:00" endTime="2010-09-25T15:21:03.7389557-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a563bf4-c084-4c16-a1a7-234fa2d47c76">
+    </UnitTestResult>
+    <UnitTestResult executionId="97a459d8-3cd9-49a1-987e-e9463fdfcd86" testId="9942daa5-a064-c005-2ef9-636721b2e10a" testName="deveria_ter_o_mesmo_hash" computerName="TORDEK-PC" duration="00:00:00.0003533" startTime="2010-09-25T15:21:03.7389557-03:00" endTime="2010-09-25T15:21:03.7545557-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97a459d8-3cd9-49a1-987e-e9463fdfcd86">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d1f7eb3-bc2c-45e4-89de-080d8787211e" testId="b019bf55-10f0-69c2-90ef-961bd4361fe3" testName="deveria_buscar_usuario_pelo_Command_denovo" computerName="TORDEK-PC" duration="00:00:00.0013511" startTime="2010-09-25T15:21:03.7701558-03:00" endTime="2010-09-25T15:21:03.7701558-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d1f7eb3-bc2c-45e4-89de-080d8787211e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f2738b2-4ad9-4998-94d3-b8fb0e769f9e" testId="bd4154a3-bb77-e24c-6eb0-af1c9ba69852" testName="deveria_trazer_um_DataTable" computerName="TORDEK-PC" duration="00:00:00.0012549" startTime="2010-09-25T15:21:03.7857558-03:00" endTime="2010-09-25T15:21:03.7857558-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f2738b2-4ad9-4998-94d3-b8fb0e769f9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef0fec0a-d5df-4c12-ab5f-549a2fa03f57" testId="d8d3a8ab-205a-77b5-e05f-6f84170efb50" testName="deveria_trazer_conexao" computerName="TORDEK-PC" duration="00:00:00.0002117" startTime="2010-09-25T15:21:03.8013558-03:00" endTime="2010-09-25T15:21:03.8013558-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef0fec0a-d5df-4c12-ab5f-549a2fa03f57">
+    </UnitTestResult>
+  </Results>
+</TestRun>
