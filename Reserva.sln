@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reserva", "Reserva\Reserva.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaTeste", "ReservaTeste\ReservaTeste.csproj", "{0B3D0C89-6955-4F94-846E-8DFA61848296}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco", "Banco\Banco.csproj", "{791AB640-3DFC-412B-AAF6-001D5ECC3DFC}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Banco.vsmdi
@@ -29,6 +31,10 @@ Global
 		{0B3D0C89-6955-4F94-846E-8DFA61848296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B3D0C89-6955-4F94-846E-8DFA61848296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B3D0C89-6955-4F94-846E-8DFA61848296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791AB640-3DFC-412B-AAF6-001D5ECC3DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791AB640-3DFC-412B-AAF6-001D5ECC3DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791AB640-3DFC-412B-AAF6-001D5ECC3DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791AB640-3DFC-412B-AAF6-001D5ECC3DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

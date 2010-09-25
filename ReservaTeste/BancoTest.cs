@@ -106,14 +106,6 @@ namespace BancoTest
             Assert.IsInstanceOfType(BD.DataTable("select * from usuario"), typeof(DataTable));
         }
         
-        [TestMethod]
-        public void deveria_trazer_um_DataTable_com_contedo()
-        {
-            DataTable dt = BD.DataTable("select * from usuario");
-
-            Assert.IsNotNull(dt);
-            Assert.AreEqual(4, dt.Rows.Count);
-        }
 
         [TestMethod]
         public void deveria_inserir_usuario()
