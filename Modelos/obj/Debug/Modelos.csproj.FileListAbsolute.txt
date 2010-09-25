@@ -1,7 +1,0 @@
-C:\Users\Tordek\documents\visual studio 2010\Projects\Banco\Modelos\bin\Debug\Modelos.dll
-C:\Users\Tordek\documents\visual studio 2010\Projects\Banco\Modelos\bin\Debug\Modelos.pdb
-C:\Users\Tordek\documents\visual studio 2010\Projects\Banco\Modelos\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Tordek\documents\visual studio 2010\Projects\Banco\Modelos\obj\Debug\Modelos.dll
-C:\Users\Tordek\documents\visual studio 2010\Projects\Banco\Modelos\obj\Debug\Modelos.pdb
-C:\Users\Tordek\documents\visual studio 2010\Projects\Banco\Modelos\bin\Debug\Banco.dll
-C:\Users\Tordek\documents\visual studio 2010\Projects\Banco\Modelos\bin\Debug\Banco.pdb
