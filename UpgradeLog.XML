@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Reserva">
+</Property><Property Name="Solution File" Value="C:\Users\Tordek\Documents\Visual Studio 2010\Projects\Banco\Reserva.sln">
+</Property><Property Name="Date" Value="sábado, 25 de setembro de 2010">
+</Property><Property Name="Time" Value="16:45">
+</Property></Properties><Event ErrorLevel="0" Project="Reserva" Source="Reserva\Reserva.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Reserva" Source="Reserva\Reserva.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ReservaTeste" Source="ReservaTeste\ReservaTeste.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="ReservaTeste" Source="ReservaTeste\ReservaTeste.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="Reserva.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="Reserva.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="Reserva" Source="Reserva\Reserva.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
